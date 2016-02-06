@@ -1,0 +1,19 @@
+# Uncomment this line to define a global platform for your project
+# platform :ios, '8.0'
+# Uncomment this line if you're using Swift
+# use_frameworks!
+
+pod 'Parse'
+
+target 'ParseAccounts' do
+
+end
+
+target 'ParseAccountsTests' do
+
+end
+
+target 'ParseAccountsUITests' do
+
+end
+

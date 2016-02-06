@@ -1,0 +1,534 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D8368EF71BD04E74000CB145 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D8368EF61BD04E74000CB145 /* main.m */; };
+		D8368EFA1BD04E74000CB145 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D8368EF91BD04E74000CB145 /* AppDelegate.m */; };
+		D8368EFD1BD04E74000CB145 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D8368EFC1BD04E74000CB145 /* ViewController.m */; };
+		D8368F001BD04E74000CB145 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D8368EFE1BD04E74000CB145 /* Main.storyboard */; };
+		D8368F021BD04E74000CB145 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D8368F011BD04E74000CB145 /* Assets.xcassets */; };
+		D8368F051BD04E74000CB145 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D8368F031BD04E74000CB145 /* LaunchScreen.storyboard */; };
+		D8368F101BD04E74000CB145 /* SeguesAndColorsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D8368F0F1BD04E74000CB145 /* SeguesAndColorsTests.m */; };
+		D8368F1B1BD04E74000CB145 /* SeguesAndColorsUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = D8368F1A1BD04E74000CB145 /* SeguesAndColorsUITests.m */; };
+		D8368F2A1BD04EE0000CB145 /* Color.m in Sources */ = {isa = PBXBuildFile; fileRef = D8368F291BD04EE0000CB145 /* Color.m */; settings = {ASSET_TAGS = (); }; };
+		D8368F2D1BD05197000CB145 /* ColorVC.m in Sources */ = {isa = PBXBuildFile; fileRef = D8368F2C1BD05197000CB145 /* ColorVC.m */; settings = {ASSET_TAGS = (); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D8368F0C1BD04E74000CB145 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D8368EEA1BD04E74000CB145 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D8368EF11BD04E74000CB145;
+			remoteInfo = SeguesAndColors;
+		};
+		D8368F171BD04E74000CB145 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D8368EEA1BD04E74000CB145 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D8368EF11BD04E74000CB145;
+			remoteInfo = SeguesAndColors;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D8368EF21BD04E74000CB145 /* SeguesAndColors.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SeguesAndColors.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D8368EF61BD04E74000CB145 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		D8368EF81BD04E74000CB145 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		D8368EF91BD04E74000CB145 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		D8368EFB1BD04E74000CB145 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		D8368EFC1BD04E74000CB145 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		D8368EFF1BD04E74000CB145 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D8368F011BD04E74000CB145 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D8368F041BD04E74000CB145 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D8368F061BD04E74000CB145 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D8368F0B1BD04E74000CB145 /* SeguesAndColorsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SeguesAndColorsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D8368F0F1BD04E74000CB145 /* SeguesAndColorsTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SeguesAndColorsTests.m; sourceTree = "<group>"; };
+		D8368F111BD04E74000CB145 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D8368F161BD04E74000CB145 /* SeguesAndColorsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SeguesAndColorsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D8368F1A1BD04E74000CB145 /* SeguesAndColorsUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SeguesAndColorsUITests.m; sourceTree = "<group>"; };
+		D8368F1C1BD04E74000CB145 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D8368F281BD04EE0000CB145 /* Color.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Color.h; sourceTree = "<group>"; };
+		D8368F291BD04EE0000CB145 /* Color.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Color.m; sourceTree = "<group>"; };
+		D8368F2B1BD05197000CB145 /* ColorVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ColorVC.h; sourceTree = "<group>"; };
+		D8368F2C1BD05197000CB145 /* ColorVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ColorVC.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D8368EEF1BD04E74000CB145 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D8368F081BD04E74000CB145 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D8368F131BD04E74000CB145 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D8368EE91BD04E74000CB145 = {
+			isa = PBXGroup;
+			children = (
+				D8368EF41BD04E74000CB145 /* SeguesAndColors */,
+				D8368F0E1BD04E74000CB145 /* SeguesAndColorsTests */,
+				D8368F191BD04E74000CB145 /* SeguesAndColorsUITests */,
+				D8368EF31BD04E74000CB145 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D8368EF31BD04E74000CB145 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D8368EF21BD04E74000CB145 /* SeguesAndColors.app */,
+				D8368F0B1BD04E74000CB145 /* SeguesAndColorsTests.xctest */,
+				D8368F161BD04E74000CB145 /* SeguesAndColorsUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D8368EF41BD04E74000CB145 /* SeguesAndColors */ = {
+			isa = PBXGroup;
+			children = (
+				D8368EF81BD04E74000CB145 /* AppDelegate.h */,
+				D8368EF91BD04E74000CB145 /* AppDelegate.m */,
+				D8368EFB1BD04E74000CB145 /* ViewController.h */,
+				D8368EFC1BD04E74000CB145 /* ViewController.m */,
+				D8368F2B1BD05197000CB145 /* ColorVC.h */,
+				D8368F2C1BD05197000CB145 /* ColorVC.m */,
+				D8368EFE1BD04E74000CB145 /* Main.storyboard */,
+				D8368F281BD04EE0000CB145 /* Color.h */,
+				D8368F291BD04EE0000CB145 /* Color.m */,
+				D8368F011BD04E74000CB145 /* Assets.xcassets */,
+				D8368F031BD04E74000CB145 /* LaunchScreen.storyboard */,
+				D8368F061BD04E74000CB145 /* Info.plist */,
+				D8368EF51BD04E74000CB145 /* Supporting Files */,
+			);
+			path = SeguesAndColors;
+			sourceTree = "<group>";
+		};
+		D8368EF51BD04E74000CB145 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D8368EF61BD04E74000CB145 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D8368F0E1BD04E74000CB145 /* SeguesAndColorsTests */ = {
+			isa = PBXGroup;
+			children = (
+				D8368F0F1BD04E74000CB145 /* SeguesAndColorsTests.m */,
+				D8368F111BD04E74000CB145 /* Info.plist */,
+			);
+			path = SeguesAndColorsTests;
+			sourceTree = "<group>";
+		};
+		D8368F191BD04E74000CB145 /* SeguesAndColorsUITests */ = {
+			isa = PBXGroup;
+			children = (
+				D8368F1A1BD04E74000CB145 /* SeguesAndColorsUITests.m */,
+				D8368F1C1BD04E74000CB145 /* Info.plist */,
+			);
+			path = SeguesAndColorsUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D8368EF11BD04E74000CB145 /* SeguesAndColors */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D8368F1F1BD04E74000CB145 /* Build configuration list for PBXNativeTarget "SeguesAndColors" */;
+			buildPhases = (
+				D8368EEE1BD04E74000CB145 /* Sources */,
+				D8368EEF1BD04E74000CB145 /* Frameworks */,
+				D8368EF01BD04E74000CB145 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SeguesAndColors;
+			productName = SeguesAndColors;
+			productReference = D8368EF21BD04E74000CB145 /* SeguesAndColors.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D8368F0A1BD04E74000CB145 /* SeguesAndColorsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D8368F221BD04E74000CB145 /* Build configuration list for PBXNativeTarget "SeguesAndColorsTests" */;
+			buildPhases = (
+				D8368F071BD04E74000CB145 /* Sources */,
+				D8368F081BD04E74000CB145 /* Frameworks */,
+				D8368F091BD04E74000CB145 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D8368F0D1BD04E74000CB145 /* PBXTargetDependency */,
+			);
+			name = SeguesAndColorsTests;
+			productName = SeguesAndColorsTests;
+			productReference = D8368F0B1BD04E74000CB145 /* SeguesAndColorsTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		D8368F151BD04E74000CB145 /* SeguesAndColorsUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D8368F251BD04E74000CB145 /* Build configuration list for PBXNativeTarget "SeguesAndColorsUITests" */;
+			buildPhases = (
+				D8368F121BD04E74000CB145 /* Sources */,
+				D8368F131BD04E74000CB145 /* Frameworks */,
+				D8368F141BD04E74000CB145 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D8368F181BD04E74000CB145 /* PBXTargetDependency */,
+			);
+			name = SeguesAndColorsUITests;
+			productName = SeguesAndColorsUITests;
+			productReference = D8368F161BD04E74000CB145 /* SeguesAndColorsUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D8368EEA1BD04E74000CB145 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = "Bit Lore Institute";
+				TargetAttributes = {
+					D8368EF11BD04E74000CB145 = {
+						CreatedOnToolsVersion = 7.0.1;
+						DevelopmentTeam = H8T743Z4MU;
+					};
+					D8368F0A1BD04E74000CB145 = {
+						CreatedOnToolsVersion = 7.0.1;
+						DevelopmentTeam = H8T743Z4MU;
+						TestTargetID = D8368EF11BD04E74000CB145;
+					};
+					D8368F151BD04E74000CB145 = {
+						CreatedOnToolsVersion = 7.0.1;
+						DevelopmentTeam = H8T743Z4MU;
+						TestTargetID = D8368EF11BD04E74000CB145;
+					};
+				};
+			};
+			buildConfigurationList = D8368EED1BD04E74000CB145 /* Build configuration list for PBXProject "SeguesAndColors" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D8368EE91BD04E74000CB145;
+			productRefGroup = D8368EF31BD04E74000CB145 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D8368EF11BD04E74000CB145 /* SeguesAndColors */,
+				D8368F0A1BD04E74000CB145 /* SeguesAndColorsTests */,
+				D8368F151BD04E74000CB145 /* SeguesAndColorsUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D8368EF01BD04E74000CB145 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D8368F051BD04E74000CB145 /* LaunchScreen.storyboard in Resources */,
+				D8368F021BD04E74000CB145 /* Assets.xcassets in Resources */,
+				D8368F001BD04E74000CB145 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D8368F091BD04E74000CB145 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D8368F141BD04E74000CB145 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D8368EEE1BD04E74000CB145 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D8368EFD1BD04E74000CB145 /* ViewController.m in Sources */,
+				D8368F2A1BD04EE0000CB145 /* Color.m in Sources */,
+				D8368EFA1BD04E74000CB145 /* AppDelegate.m in Sources */,
+				D8368F2D1BD05197000CB145 /* ColorVC.m in Sources */,
+				D8368EF71BD04E74000CB145 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D8368F071BD04E74000CB145 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D8368F101BD04E74000CB145 /* SeguesAndColorsTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D8368F121BD04E74000CB145 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D8368F1B1BD04E74000CB145 /* SeguesAndColorsUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D8368F0D1BD04E74000CB145 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D8368EF11BD04E74000CB145 /* SeguesAndColors */;
+			targetProxy = D8368F0C1BD04E74000CB145 /* PBXContainerItemProxy */;
+		};
+		D8368F181BD04E74000CB145 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D8368EF11BD04E74000CB145 /* SeguesAndColors */;
+			targetProxy = D8368F171BD04E74000CB145 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D8368EFE1BD04E74000CB145 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D8368EFF1BD04E74000CB145 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D8368F031BD04E74000CB145 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D8368F041BD04E74000CB145 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D8368F1D1BD04E74000CB145 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		D8368F1E1BD04E74000CB145 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D8368F201BD04E74000CB145 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = SeguesAndColors/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.bitlore.SeguesAndColors;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		D8368F211BD04E74000CB145 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = SeguesAndColors/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.bitlore.SeguesAndColors;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		D8368F231BD04E74000CB145 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = SeguesAndColorsTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.bitlore.SeguesAndColorsTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SeguesAndColors.app/SeguesAndColors";
+			};
+			name = Debug;
+		};
+		D8368F241BD04E74000CB145 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = SeguesAndColorsTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.bitlore.SeguesAndColorsTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SeguesAndColors.app/SeguesAndColors";
+			};
+			name = Release;
+		};
+		D8368F261BD04E74000CB145 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = SeguesAndColorsUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.bitlore.SeguesAndColorsUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = SeguesAndColors;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		D8368F271BD04E74000CB145 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = SeguesAndColorsUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.bitlore.SeguesAndColorsUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = SeguesAndColors;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D8368EED1BD04E74000CB145 /* Build configuration list for PBXProject "SeguesAndColors" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D8368F1D1BD04E74000CB145 /* Debug */,
+				D8368F1E1BD04E74000CB145 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D8368F1F1BD04E74000CB145 /* Build configuration list for PBXNativeTarget "SeguesAndColors" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D8368F201BD04E74000CB145 /* Debug */,
+				D8368F211BD04E74000CB145 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		D8368F221BD04E74000CB145 /* Build configuration list for PBXNativeTarget "SeguesAndColorsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D8368F231BD04E74000CB145 /* Debug */,
+				D8368F241BD04E74000CB145 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		D8368F251BD04E74000CB145 /* Build configuration list for PBXNativeTarget "SeguesAndColorsUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D8368F261BD04E74000CB145 /* Debug */,
+				D8368F271BD04E74000CB145 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D8368EEA1BD04E74000CB145 /* Project object */;
+}
